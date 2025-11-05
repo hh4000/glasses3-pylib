@@ -1,5 +1,7 @@
 # Glasses3 Python Library
 
+**FORK DEV NOTE: this fork is only made to resolve the incompatibility from using av<11.0.0**
+
 **This library is still in alpha. It's not yet feature complete and there are no guarantees that the API will be stable.**
 
 A Python client for Glasses3. It handles all the low level details of communication with the Glasses3 websocket API and exposes a Python API which includes all the endpoints in the websocket API of the Glasses3 as well as some extra convenience methods. It also implements streaming with RTSP and service discovery with Zeroconf.
